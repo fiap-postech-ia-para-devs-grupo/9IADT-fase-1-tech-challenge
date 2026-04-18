@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+python -m ipykernel install --user --name fiap-tech-challenge --display-name "Python (fiap-tech-challenge)"
